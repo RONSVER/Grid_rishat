@@ -42,11 +42,18 @@ export function parseHour(time: string, tz: string): number {
 }
 
 export function getOffsetMs(timezone: string, date: Date): number {
-  const offset =
-    {
-      "Asia/Vladivostok": 10,
-    }[timezone] ?? 0;
-  return offset * 60 * 60 * 1000;
+  const currentYear = date.getFullYear();
+  console.log(`Calculating offset for year: ${currentYear}`);
+
+  const offset: Record<string, number> = {
+    "Asia/Vladivostok": 10,
+    "Europe/Moscow": 3,
+    "America/New_York": -5,
+  };
+
+  const zoneOffset = offset[timezone] ?? 0;
+
+  return zoneOffset * 60 * 60 * 1000;
 }
 
 export function getOverlapOffset(
