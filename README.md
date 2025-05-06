@@ -1,5 +1,29 @@
-# Vue 3 + TypeScript + Vite
+# Arc Grid Layout
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project showcases a responsive grid layout built using Vue 3, Tailwind CSS, and Vite.  
+It's designed for clean visual presentation and flexibility across screen sizes.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Tech Stack
+
+- **Vue 3** – UI framework
+- **Vite** – lightning-fast dev server and bundler
+- **Tailwind CSS** – utility-first CSS framework
+- **TypeScript** – static typing
+- **clsx** – conditional className utility
+- **dayjs** – lightweight date utility
+- **tailwind-merge** – intelligently merge Tailwind classes
+- **PostCSS & Autoprefixer** – CSS preprocessing
+- **vue-tsc** – type checking for Vue components
+- **@vitejs/plugin-vue** – Vue plugin for Vite
+- **@vue/tsconfig** – TypeScript config base for Vue
+
+## Features
+
+- Responsive CSS Grid layout
+- Clean and minimal UI
+- Modern tooling and performance optimizations
+
+## Live Demo
+
+Check out the live version here:  
+🔗 [grid-rishat-zwk7.vercel.app](https://grid-rishat-zwk7.vercel.app)
